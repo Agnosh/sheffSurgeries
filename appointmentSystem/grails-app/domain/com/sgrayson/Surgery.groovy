@@ -21,4 +21,5 @@ class Surgery {
         description blank:false, nullable:false, widget: 'textarea';
         openingTime blank:false, nullable:false
     }
+    static hasMany = [doctor:Doctor, receptionist:Receptionist, appointment:Appointment, patient:Patient, nurse:Nurse] //hasMany Relationships
 }

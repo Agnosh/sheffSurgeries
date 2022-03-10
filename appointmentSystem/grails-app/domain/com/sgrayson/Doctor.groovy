@@ -23,4 +23,6 @@ class Doctor {
         doctorPhone blank:false, nullable:false, size:0..15
         bio blank:false, nullable:false, widget: 'textarea';
     }
+    static hasMany = [prescription:Prescription, patient:Patient, appointment:Appointment, nurse:Nurse] //hasMany Relationships
+    static belongsTo = [surgery:Surgery] //belongsTo Relationships
 }

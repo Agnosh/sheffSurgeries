@@ -3,18 +3,19 @@ package com.sgrayson
 class Receptionist {
 
     //Variables
-    String recapName
-    String recapEmail
-    String recapUsername
-    String recapPassword
-    int recapPhone
+    String recepName
+    String recepEmail
+    String recepUsername
+    String recepPassword
+    int recepPhone
 
     static constraints = {
         //contraints
-        recapName blank:false, nullable:false
-        recapEmail blank:false, nullable:false, email:true, unique:true
-        recapUsername blank:false, nullable:false, unique:true
-        recapPassword blank:false, nullable:false, size:8..15
-        recapPhone blank:false, nullable:false, size:0..15
+        recepName blank:false, nullable:false
+        recepEmail blank:false, nullable:false, email:true, unique:true
+        recepUsername blank:false, nullable:false, unique:true
+        recepPassword blank:false, nullable:false, size:8..15
+        recepPhone blank:false, nullable:false, size:0..15
     }
+    static belongsTo = [surgery:Surgery] //belongsTo Relationship
 }
