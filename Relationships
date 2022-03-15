@@ -24,6 +24,5 @@ One to Many:	Surgery - Appointment
 		Doctor - Appointment
 		Doctor - Presription
 		Patient - Prescription
-
-One to One:	Patient - Appointment
+		Patient - Appointment
 		
