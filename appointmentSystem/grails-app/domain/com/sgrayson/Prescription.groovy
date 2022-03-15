@@ -19,5 +19,5 @@ class Prescription {
         dateIssued blank:false, nullable:false
         patientPaying blank:false, nullable:false
     }
-    static belongsTo = [doctor:Doctor, patient:Patient] //belongsTo Relationships
+    static hasOne = [doctor:Doctor, patient:Patient] //hasOne Relationships
 }

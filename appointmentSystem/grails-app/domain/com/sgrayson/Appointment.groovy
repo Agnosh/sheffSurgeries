@@ -15,5 +15,5 @@ class Appointment {
         appDuration blank:false, nullable:false
         roomNumber blank:false, nullable:false
     }
-    static belongsTo = [surgery:Surgery, doctor:Doctor, patient:Patient] //belongsTo Relationships
+    static hasOne = [surgery:Surgery, doctor:Doctor, patient:Patient] //hasOne Relationship
 }
