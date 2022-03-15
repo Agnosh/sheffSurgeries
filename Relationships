@@ -1,0 +1,29 @@
+Relationships
+
+Surgery:	hasMany = Doctor, Receptionist, Appointment, Patient and Nurse
+Doctor:		hasMany = Prescription, Patient, Appointment and Nurse
+		belongsTo = Surgery
+Patient:	hasMany = Doctor, Surgery and Prescription
+		hasOne = Appointment
+Receptionist:	belongsTo = Surgery
+Nurse:		hasMany = Doctor
+		belongsTo = Surgery
+Appointment:	hasOne = Surgery, Doctor and Patient
+Prescription:	hasOne = Doctor and Patient
+
+
+belongsTo:	Doctor - Surgery
+		Receptionist - Surgery
+		Nurse - Surgery
+
+Many to Many:	Surgery - Patient
+		Doctor - Patient		
+		Doctor - Nurse
+
+One to Many:	Surgery - Appointment
+		Doctor - Appointment
+		Doctor - Presription
+		Patient - Prescription
+
+One to One:	Patient - Appointment
+		
