@@ -11,6 +11,10 @@ class Patient {
     Date dateRegistered
     String patientPhone
 
+    String toString(){
+        return patientName;
+    }
+
     static constraints = {
         //contraints
         patientName blank:false, nullable:false

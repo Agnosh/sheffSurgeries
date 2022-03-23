@@ -9,6 +9,10 @@ class Receptionist {
     String recepPassword
     String recepPhone
 
+    String toString(){
+        return recepName;
+    }
+
     static constraints = {
         //contraints
         recepName blank:false, nullable:false

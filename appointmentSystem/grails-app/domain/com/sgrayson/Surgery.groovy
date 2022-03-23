@@ -11,6 +11,10 @@ class Surgery {
     String description
     String openingTime
 
+    String toString(){
+        return name;
+    }
+
     static constraints = {
         //contraints
         name blank:false, nullable:false

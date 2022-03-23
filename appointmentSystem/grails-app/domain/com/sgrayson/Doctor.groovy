@@ -12,6 +12,10 @@ class Doctor {
     String doctorPhone
     String bio
 
+    String toString(){
+        return fullName;
+    }
+
     static constraints = {
         //contraints
         fullName blank:false, nullable:false

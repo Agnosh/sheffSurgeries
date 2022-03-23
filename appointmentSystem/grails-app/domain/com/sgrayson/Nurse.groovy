@@ -9,6 +9,10 @@ class Nurse {
     String nurseOffice
     String nursePhone
 
+    String toString(){
+        return nurseName;
+    }
+
     static constraints = {
         //contraints
         nurseName blank:false, nullable:false
