@@ -9,7 +9,7 @@ class Doctor {
     String doctorEmail
     String password
     String doctorOffice
-    int doctorPhone
+    String doctorPhone
     String bio
 
     static constraints = {

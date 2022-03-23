@@ -7,7 +7,7 @@ class Receptionist {
     String recepEmail
     String recepUsername
     String recepPassword
-    int recepPhone
+    String recepPhone
 
     static constraints = {
         //contraints

@@ -9,7 +9,7 @@ class Patient {
     Date patientDob
     String patientID
     Date dateRegistered
-    int patientPhone
+    String patientPhone
 
     static constraints = {
         //contraints
