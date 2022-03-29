@@ -2,75 +2,113 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Sheffield Surgeries Online | Home</title>
 </head>
 <body>
-<content tag="nav">
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#">Environment: ${grails.util.Environment.current.name}</a></li>
-            <li class="dropdown-item"><a href="#">App profile: ${grailsApplication.config.grails?.profile}</a></li>
-            <li class="dropdown-item"><a href="#">App version:
-                <g:meta name="info.app.version"/></a>
-            </li>
-            <li role="separator" class="dropdown-divider"></li>
-            <li class="dropdown-item"><a href="#">Grails version:
-                <g:meta name="info.app.grailsVersion"/></a>
-            </li>
-            <li class="dropdown-item"><a href="#">Groovy version: ${GroovySystem.getVersion()}</a></li>
-            <li class="dropdown-item"><a href="#">JVM version: ${System.getProperty('java.version')}</a></li>
-            <li role="separator" class="dropdown-divider"></li>
-            <li class="dropdown-item"><a href="#">Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</a></li>
-        </ul>
-    </li>
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artefacts <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#">Controllers: ${grailsApplication.controllerClasses.size()}</a></li>
-            <li class="dropdown-item"><a href="#">Domains: ${grailsApplication.domainClasses.size()}</a></li>
-            <li class="dropdown-item"><a href="#">Services: ${grailsApplication.serviceClasses.size()}</a></li>
-            <li class="dropdown-item"><a href="#">Tag Libraries: ${grailsApplication.tagLibClasses.size()}</a></li>
-        </ul>
-    </li>
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Installed Plugins <span class="caret"></span></a>
-        <ul class="dropdown-menu dropdown-menu-right">
-            <g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-                <li class="dropdown-item"><a href="#">${plugin.name} - ${plugin.version}</a></li>
-            </g:each>
-        </ul>
-    </li>
-</content>
 
-<div class="svg" role="presentation">
-    <div class="grails-logo-container">
-        <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
-    </div>
-</div>
+
 
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Welcome to Sheffield Surgeries Online</h1>
 
-            <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
-            </p>
+        <div class ="row">
+            <div class="first"> <!-- This code changes the links to the different pages into buttons. -->
+                <h3>Appointments<h3>
 
-            <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
-                    </g:each>
-                </ul>
+            <p>Appointments</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Appointment">Appointments</g:link>
+
+                </button>
+
             </div>
+
+            <div class="second">
+                <h3>Doctors<h3>
+
+            <p>Doctors</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Doctor">Doctors</g:link>
+
+                </button>
+
+            </div>
+
+            <div class="third">
+                <h3>Nurses<h3>
+
+            <p>Nurses</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Nurse">Nurses</g:link>
+
+                </button>
+
+            </div>
+
+            <div class="fourth">
+                <h3>Patients<h3>
+
+            <p>Patients</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Patient">Patients</g:link>
+
+                </button>
+
+            </div>
+
+            <div class="fifth">
+                <h3>Prescriptions<h3>
+
+            <p>Prescriptions</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Prescription">Prescriptions</g:link>
+
+                </button>
+
+            </div>
+
+            <div class="sixth">
+                <h3>Receptionists<h3>
+
+            <p>Receptionists</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Receptionist">Receptionists</g:link>
+
+                </button>
+
+            </div>
+
+            <div class="seventh">
+                <h3>Surgeries<h3>
+
+            <p>Surgeries</p>
+
+                <button type="button"class="btn btn-success">
+
+                    <g:link controller="Surgery">Surgeries</g:link>
+
+                </button>
+
+            </div>
+
+                <asset:image src="doctor.jpeg" <!-- This code adds the image and also changes its size. -->
+                width="225"
+                height="300"/>
+        </div>
         </section>
     </div>
 </div>

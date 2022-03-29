@@ -11,7 +11,7 @@ class Prescription {
     Boolean patientPaying
 
     String toString(){
-        return pharmacyName;
+        return pharmacyName; //Removes com. when creating a new prescription.
     }
 
     static constraints = {

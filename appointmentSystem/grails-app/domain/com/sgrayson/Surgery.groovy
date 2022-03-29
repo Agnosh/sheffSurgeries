@@ -12,7 +12,7 @@ class Surgery {
     String openingTime
 
     String toString(){
-        return name;
+        return name; //Removes com. when creating a new surgery.
     }
 
     static constraints = {

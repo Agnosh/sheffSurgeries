@@ -9,7 +9,7 @@ class Appointment {
     String roomNumber
 
     String toString(){
-        return appDate;
+        return appDate; //Removes com. when creating a new appoinment.
     }
 
     static constraints = {

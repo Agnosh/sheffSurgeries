@@ -13,7 +13,7 @@ class Doctor {
     String bio
 
     String toString(){
-        return fullName;
+        return fullName; //Removes com. when creating a new doctor.
     }
 
     static constraints = {

@@ -10,7 +10,7 @@ class Receptionist {
     String recepPhone
 
     String toString(){
-        return recepName;
+        return recepName; //Removes com. when creating a new receptionist.
     }
 
     static constraints = {

@@ -10,7 +10,7 @@ class Nurse {
     String nursePhone
 
     String toString(){
-        return nurseName;
+        return nurseName; //Removes com. when creating a new nurse.
     }
 
     static constraints = {

@@ -12,7 +12,7 @@ class Patient {
     String patientPhone
 
     String toString(){
-        return patientName;
+        return patientName; //Removes com. when creating a new patient.
     }
 
     static constraints = {
