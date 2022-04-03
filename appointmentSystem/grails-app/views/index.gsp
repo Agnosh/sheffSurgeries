@@ -19,7 +19,7 @@
 
             <p>Appointments</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Appointment">Appointments</g:link>
 
@@ -32,7 +32,7 @@
 
             <p>Doctors</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Doctor">Doctors</g:link>
 
@@ -45,7 +45,7 @@
 
             <p>Nurses</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Nurse">Nurses</g:link>
 
@@ -58,7 +58,7 @@
 
             <p>Patients</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Patient">Patients</g:link>
 
@@ -71,7 +71,7 @@
 
             <p>Prescriptions</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Prescription">Prescriptions</g:link>
 
@@ -84,7 +84,7 @@
 
             <p>Receptionists</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Receptionist">Receptionists</g:link>
 
@@ -97,7 +97,7 @@
 
             <p>Surgeries</p>
 
-                <button type="button"class="btn btn-success">
+                <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Surgery">Surgeries</g:link>
 
