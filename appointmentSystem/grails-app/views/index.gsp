@@ -14,10 +14,8 @@
             <h1>Welcome to Sheffield Surgeries Online</h1>
 
         <div class ="row">
-            <div class="first"> <!-- This code changes the links to the different pages into buttons. -->
+            <div class="first">
                 <h3>Appointments<h3>
-
-            <p>Appointments</p>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
@@ -30,8 +28,6 @@
             <div class="second">
                 <h3>Doctors<h3>
 
-            <p>Doctors</p>
-
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Doctor">Doctors</g:link>
@@ -42,8 +38,6 @@
 
             <div class="third">
                 <h3>Nurses<h3>
-
-            <p>Nurses</p>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
@@ -56,8 +50,6 @@
             <div class="fourth">
                 <h3>Patients<h3>
 
-            <p>Patients</p>
-
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Patient">Patients</g:link>
@@ -68,8 +60,6 @@
 
             <div class="fifth">
                 <h3>Prescriptions<h3>
-
-            <p>Prescriptions</p>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
@@ -82,8 +72,6 @@
             <div class="sixth">
                 <h3>Receptionists<h3>
 
-            <p>Receptionists</p>
-
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Receptionist">Receptionists</g:link>
@@ -95,8 +83,6 @@
             <div class="seventh">
                 <h3>Surgeries<h3>
 
-            <p>Surgeries</p>
-
                 <button type="button"class="btn btn-success" style="margin:3px";>
 
                     <g:link controller="Surgery">Surgeries</g:link>
@@ -105,7 +91,7 @@
 
             </div>
 
-                <asset:image src="doctor.jpeg" <!-- This code adds the image and also changes its size. -->
+                <asset:image src="doctor.jpeg"
                 width="225"
                 height="300"/>
         </div>

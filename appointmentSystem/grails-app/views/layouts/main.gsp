@@ -18,9 +18,9 @@
 
 <div class="row">
 
-    <asset:image src="banner.jpeg" <!-- This code adds the image and also changes its size. -->
+    <asset:image src="banner.jpeg"
         width="1920"
-        height="300"/>
+        height="250"/>
 </div>
 
 <g:layoutBody/>
@@ -32,7 +32,7 @@
                 <a href="https://www.nhs.uk" target="_blank">
                     <asset:image src="homepage.jpg" alt="NHS Homepage" class="float-left"/>
                 </a>
-                <strong class="centered"><a href="https://www.nhs.uk" target="_blank">Grails Guides</a></strong>
+                <strong class="centered"><a href="https://www.nhs.uk" target="_blank">NHS Website</a></strong>
                 <p>Wanting to know more? Visit our website: <a href="https://www.nhs.uk" target="_blank">NHS</a> for anything you may want to know.</p>
 
             </div>
@@ -40,7 +40,7 @@
                 <a href="https://www.nhs.uk/conditions/" target="_blank">
                     <asset:image src="a-z.png" alt="NHS A-Z" class="float-left"/>
                 </a>
-                <strong class="centered"><a href="https://www.nhs.uk/conditions/" target="_blank">Documentation</a></strong>
+                <strong class="centered"><a href="https://www.nhs.uk/conditions/" target="_blank">A-Z</a></strong>
                 <p>Need help finding something then use our handy: <a href="https://www.nhs.uk/conditions/" target="_blank">A-Z</a>.</p>
 
             </div>
@@ -48,7 +48,7 @@
                 <a href="https://www.nhs.uk/contact-us/" target="_blank">
                     <asset:image src="phone.jpg" alt="NHS Contact-Us" class="float-left"/>
                 </a>
-                <strong class="centered"><a href="https://www.nhs.uk/contact-us/" target="_blank">Join the Community</a></strong>
+                <strong class="centered"><a href="https://www.nhs.uk/contact-us/" target="_blank">Contact Us</a></strong>
                 <p>Want to get in contact? You can here: <a href="https://www.nhs.uk/contact-us/" target="_blank">Contact Us</a>.</p>
             </div>
         </div>
