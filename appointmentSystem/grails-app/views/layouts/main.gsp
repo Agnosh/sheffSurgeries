@@ -21,6 +21,7 @@
     <asset:image src="banner.jpeg"
         width="1920"
         height="250"/>
+    <g:loginToggle/>
 </div>
 
 <g:layoutBody/>

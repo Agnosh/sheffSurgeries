@@ -6,6 +6,8 @@
 </head>
 <body>
 
+
+
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
@@ -89,9 +91,6 @@
 
             </div>
 
-                <asset:image src="doctor.jpeg"
-                width="225"
-                height="300"/>
         </div>
         </section>
     </div>
