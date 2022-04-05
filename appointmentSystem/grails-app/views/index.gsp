@@ -14,7 +14,7 @@
             <h1>Welcome to Sheffield Surgeries Online</h1>
 
         <div class ="row">
-            <div class="first">
+            <div class="first"> <%-- This is the code for the first button, they are attached to there respective controllers. --%>
                 <h3>Appointments<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class="second">
+            <div class="second"> <%-- This is the code for the second button, they are attached to there respective controllers. --%>
                 <h3>Doctors<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -36,7 +36,7 @@
 
             </div>
 
-            <div class="third">
+            <div class="third"> <%-- This is the code for the third button, they are attached to there respective controllers. --%>
                 <h3>Nurses<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -47,7 +47,7 @@
 
             </div>
 
-            <div class="fourth">
+            <div class="fourth"> <%-- This is the code for the fourth button, they are attached to there respective controllers. --%>
                 <h3>Patients<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -58,7 +58,7 @@
 
             </div>
 
-            <div class="fifth">
+            <div class="fifth"> <%-- This is the code for the fifth button, they are attached to there respective controllers. --%>
                 <h3>Prescriptions<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -69,7 +69,7 @@
 
             </div>
 
-            <div class="sixth">
+            <div class="sixth"> <%-- This is the code for the sixth button, they are attached to there respective controllers. --%>
                 <h3>Receptionists<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>
@@ -80,7 +80,7 @@
 
             </div>
 
-            <div class="seventh">
+            <div class="seventh"> <%-- This is the code for the seventh button, they are attached to there respective controllers. --%>
                 <h3>Surgeries<h3>
 
                 <button type="button"class="btn btn-success" style="margin:3px";>

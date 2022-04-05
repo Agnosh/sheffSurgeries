@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col">
                 <a href="https://www.nhs.uk" target="_blank">
-                    <asset:image src="homepage.jpg" alt="NHS Homepage" class="float-left"/>
+                    <asset:image src="homepage.png" alt="NHS Homepage" class="float-left"/>
                 </a>
                 <strong class="centered"><a href="https://www.nhs.uk" target="_blank">NHS Website</a></strong>
                 <p>Wanting to know more? Visit our website: <a href="https://www.nhs.uk" target="_blank">NHS</a> for anything you may want to know.</p>
@@ -46,7 +46,7 @@
             </div>
             <div class="col">
                 <a href="https://www.nhs.uk/contact-us/" target="_blank">
-                    <asset:image src="phone.jpg" alt="NHS Contact-Us" class="float-left"/>
+                    <asset:image src="phone.png" alt="NHS Contact-Us" class="float-left"/>
                 </a>
                 <strong class="centered"><a href="https://www.nhs.uk/contact-us/" target="_blank">Contact Us</a></strong>
                 <p>Want to get in contact? You can here: <a href="https://www.nhs.uk/contact-us/" target="_blank">Contact Us</a>.</p>
