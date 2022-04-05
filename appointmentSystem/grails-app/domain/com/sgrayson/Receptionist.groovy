@@ -7,7 +7,11 @@ class Receptionist {
     String recepEmail
     String recepUsername
     String recepPassword
-    int recepPhone
+    String recepPhone
+
+    String toString(){
+        return recepName; //Removes com. when creating a new receptionist.
+    }
 
     static constraints = {
         //contraints

@@ -9,7 +9,11 @@ class Patient {
     Date patientDob
     String patientID
     Date dateRegistered
-    int patientPhone
+    String patientPhone
+
+    String toString(){
+        return patientName; //Removes com. when creating a new patient.
+    }
 
     static constraints = {
         //contraints

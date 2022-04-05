@@ -6,10 +6,14 @@ class Surgery {
     String name
     String address
     String postcode
-    int telephone
+    String telephone
     int numberOfPatients
     String description
     String openingTime
+
+    String toString(){
+        return name; //Removes com. when creating a new surgery.
+    }
 
     static constraints = {
         //contraints

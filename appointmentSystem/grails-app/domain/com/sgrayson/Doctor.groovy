@@ -9,8 +9,12 @@ class Doctor {
     String doctorEmail
     String password
     String doctorOffice
-    int doctorPhone
+    String doctorPhone
     String bio
+
+    String toString(){
+        return fullName; //Removes com. when creating a new doctor.
+    }
 
     static constraints = {
         //contraints
